@@ -1,0 +1,104 @@
+.about-container {
+    max-width: 800px; /* Maksimalna širina kontejnera */
+    margin: 20px auto; /* Centriranje kontejnera */
+    padding: 20px; /* Unutarnje margine */
+    background-color: #fff; /* Pozadina */
+    border-radius: 8px; /* Zaobljeni kutovi */
+    box-shadow: 0 2px 10px rgba(220, 217, 217, 0.41); /* Sjena */
+  }
+  
+  .about-title {
+    text-align: center; /* Centriranje naslova */
+    font-size: 2.5rem; /* Veličina fonta naslova */
+    color: #333; /* Boja teksta */
+    margin-bottom: 20px; /* Razmak ispod naslova */
+  }
+  
+  .about-description,
+  .mission-description,
+  .about-closure {
+    font-size: 1.1rem; /* Veličina fonta */
+    line-height: 1.6; /* Visina linije */
+    color: #555; /* Boja teksta */
+  }
+  
+  .mission-title, .team-title, .services-title {
+    font-size: 1.8rem; /* Veličina fonta podnaslova */
+    color: #333; /* Boja podnaslova */
+    margin-top: 30px; /* Razmak iznad podnaslova */
+  }
+  
+  .team-container {
+    display: flex; /* Flexbox za raspored članova tima */
+    justify-content: space-between; /* Razmak između članova tima */
+    flex-wrap: wrap; /* Omogućuje prelazak u novi red */
+    margin: 20px 0; /* Razmak iznad i ispod tima */
+  }
+  
+  .team-member {
+    flex: 1 1 30%; /* Fleksibilna širina članova tima */
+    margin: 10px; /* Razmak između članova tima */
+    text-align: center; /* Centriranje teksta */
+  }
+  
+  .team-photo {
+    width: 100px; /* Širina slike */
+    height: auto; /* Automatska visina */
+    border-radius: 50%; /* Okrugli oblik slika */
+    margin-bottom: 10px; /* Razmak ispod slike */
+  }
+  
+  .services-list {
+    list-style-type: none; /* Uklanja točkice sa liste */
+    padding: 0; /* Uklanja padding */
+    font-size: 1.1rem; /* Veličina fonta */
+    color: #555; /* Boja teksta */
+  }
+  
+  .services-list li {
+    margin: 5px 0; /* Razmak između stavki na listi */
+  }
+  
+  @media (max-width: 768px) {
+    .team-container {
+      flex-direction: column; /* Rasporedi članove tima u stupce na manjim ekranima */
+      align-items: center; /* Centriranje članova tima */
+    }
+  
+    .team-member {
+      flex: 1 1 80%; /* Širina članova tima na manjim ekranima */
+    }
+  }
+  .testimonials-container {
+    max-width: 800px; /* Maksimalna širina kontejnera */
+    margin: 40px auto; /* Centriranje kontejnera */
+    padding: 20px; /* Unutarnje margine */
+    background-color: #f9f9f9; /* Pozadina kontejnera */
+    border-radius: 8px; /* Zaobljenost ivica */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Lagana sjena */
+  }
+  
+  .testimonials-title {
+    text-align: center; /* Centriranje naslova */
+    font-size: 2rem; /* Veličina fonta */
+    color: #333; /* Boja teksta */
+    margin-bottom: 20px; /* Razmak ispod naslova */
+  }
+  
+  .testimonial {
+    margin-bottom: 15px; /* Razmak između svjedočanstava */
+    padding: 10px; /* Unutarnje margine */
+    border-left: 4px solid #007bff; /* Bočna ivica */
+  }
+  
+  .testimonial-text {
+    font-style: italic; /* Italic stil za tekst svjedočanstava */
+    color: #555; /* Boja teksta */
+  }
+  
+  .testimonial-author {
+    text-align: right; /* Poravnanje teksta udesno */
+    font-weight: bold; /* Podebljan tekst */
+    margin-top: 5px; /* Razmak iznad imena */
+  }
+  

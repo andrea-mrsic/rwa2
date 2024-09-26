@@ -1,0 +1,48 @@
+.container {
+  max-width: 1200px; /* Postavi maksimalnu širinu */
+  margin: 0 auto; /* Centriraj kontejner */
+  padding: 20px; /* Dodaj padding */
+}
+
+.title {
+  text-align: center; /* Centriraj naslov */
+  margin-bottom: 30px; /* Razmak ispod naslova */
+}
+
+.gymimage {
+  width: 100%; /* Postavi širinu slike na 100% */
+  height: auto; /* Automatska visina */
+  margin-bottom: 30px; /* Razmak ispod slike */
+}
+
+.description-container {
+  background-color: #ffffff; /* Pozadina kontejnera opisa */
+  border-radius: 10px; /* Zaobljenost ivica */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Jača sjena */
+  padding: 20px; /* Unutarnje margine */
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Lagani rub */
+  margin-bottom: 30px; /* Razmak ispod kontejnera */
+}
+
+.description {
+  color: #555; /* Neutralna boja teksta */
+  margin-bottom: 15px; /* Razmak između paragrafa */
+}
+.icon-container {
+  display: flex; /* Flexbox za raspored ikona */
+  justify-content: space-between; /* Rasporedi ikone */
+  margin-top: 30px; /* Razmak iznad ikona */
+  flex-wrap: nowrap; /* Spriječi prelamanje u novi red */
+}
+
+.icon {
+  text-align: center; /* Centriraj sadržaj ikone */
+  padding: 20px; /* Unutarnje margine */
+  background-color: #fff; /* Bijela pozadina */
+  border-radius: 10px; /* Zaobljenost ivica */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Jača sjena */
+  width: 30%; /* Širina ikone, možeš smanjiti ako je potrebno */
+  transition: transform 0.3s; /* Animacija prilikom hover-a */
+  margin: 10px; /* Razmak između ikona */
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Lagani rub */
+}

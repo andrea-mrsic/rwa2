@@ -1,0 +1,65 @@
+/* Stilizacija za navigacijski bar */
+.navbar {
+  background-color: #fff; /* Pozadina navigacijskog bara */
+  padding: 1rem; /* Unutarnje margine */
+  text-align: center; /* Centriranje sadržaja unutar navbar-a */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Razmak između loga i menija */
+  align-items: center; /* Poravnanje loga i teksta po sredini */
+}
+
+.brand {
+  display: flex;
+  align-items: center; /* Poravnanje slike i teksta u horizontalnoj liniji */
+}
+
+.brand h2 {
+  margin-left: 10px; /* Razmak između loga i naziva */
+}
+
+.logo {
+  width: 60px; /* Širina loga */
+  height: auto; /* Omjer slike */
+}
+
+.nav-links {
+  list-style: none; /* Uklanja točkice sa liste */
+  display: inline-flex; /* Prikaz stavki u horizontalnoj liniji */
+  gap: 1.5rem; /* Razmak između stavki menija */
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links button {
+  background: none; /* Uklanja pozadinu sa buttona */
+  border: none; /* Uklanja okvire */
+  color: #333; /* Boja teksta */
+  font-size: 1rem; /* Veličina fonta */
+  cursor: pointer; /* Ruka kada se pređe preko stavki */
+}
+
+.nav-links button:hover {
+  color: #007bff; /* Boja teksta na hover */
+  text-decoration: underline; /* Doda podvlačenje na hover */
+}
+
+/* Stilizacija slike */
+.my-image {
+  margin-top: 20px; /* Pomakni sliku prema dolje */
+  display: block; /* Postavi sliku kao block element */
+  max-width: 100%; /* Da slika bude responzivna */
+}
+
+/* Općeniti stilovi za tijelo */
+body {
+  font-family: Arial, sans-serif; /* Postavi font za cijelu aplikaciju */
+  margin: 0; /* Uklanja marginu oko tijela */
+  padding: 0; /* Uklanja padding */
+  line-height: 1.6; /* Povećava razmak između redova */
+  background-color: #f4f4f4; /* Pozadina cijele aplikacije */
+}

@@ -1,0 +1,18 @@
+<nav class="navbar">
+  <div class="container">
+    <div class="brand">
+      <img src="https://i.pinimg.com/736x/42/9d/63/429d631659a11a9eb666b103d811470a.jpg" alt="Gym Logo" class="logo">
+      <h2>BUDI FIT</h2>
+    </div>
+    <ul class="nav-links">
+      <li><button (click)="navigateToHome()">Home</button></li>
+      <li><button (click)="navigateToAbout()">About</button></li>
+      <li><button (click)="navigateToServices()">Services</button></li>
+      <li><button (click)="navigateToContact()">Contact</button></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="content">
+  <router-outlet></router-outlet>
+</div>
